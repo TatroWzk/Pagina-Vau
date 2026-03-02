@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    Color: rgb(65, 58, 58);
+    background-color: rgb(255, 219, 241);
+}
+
+.banner {
+  height: 60vh;
+  background-image: url('https://img.freepik.com/fotos-premium/gran-familia-feliz-divierte-juntos-dormitorio-concepto-manana-familia-numerosa-madre-cuatro-hijos-usa-pijama-cama-casa_151355-10841.jpg?semt=ais_user_personalization&w=740&q=80');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-banner {
+  font-family: "Oi", serif;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 6px;
+}
+
+.categoria-titulo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  text-align: left;
+  border-left: 5px solid #6ba6ff;
+  padding-left: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  margin: 30px 0;
+  width: 300px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.card {
+    
+    border: 1px solid #6ba6ff6c;
+    border-radius: 10px;
+    background-color: #6ba6ff13;
+    padding: 10px;
+    text-align:left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(41, 105, 124, 0.2);
+}       
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+    
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    background: rgb(184, 184, 184);
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+
+    padding: 6px 10px;
+    border-radius: 4px;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.titulo-tatoo {
+  font-family: "Oi", serif;
+  font-size: 60px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.price-container {
+  margin: 10px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.new-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+}

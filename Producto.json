@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Pijama piel de conejo",
+    "price": 120000,
+    "stock": true,
+    "category": "Conjuntos",
+    "discount": true,
+    "discountValue": 10,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_859127-MCO72806604540_112023-O.webp"
+  },
+  {
+    "id": 2,
+    "name": "Batamanta",
+    "price": 130000,
+    "stock": true,
+    "category": "Prendas",
+    "discount": true,
+    "discountValue": 20,
+    "image": "https://naturaselection.com/cdn/shop/files/156031-blue_2.jpg?v=1760009720&width=1946"
+  },
+  {
+    "id": 3,
+    "name": "Camisas personalizadas",
+    "price": 60000,
+    "stock": true,
+    "category": "Prendas",
+    "discount": false,
+    "discountValue": null,
+    "image": "https://static.wixstatic.com/media/35db85_860e5406877f4b71aa6062fd021b459b~mv2.png/v1/fill/w_190,h_264,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/35db85_860e5406877f4b71aa6062fd021b459b~mv2.png"
+  },
+  {
+    "id": 4,
+    "name": "Pantuflas",
+    "price": 80000,
+    "stock": false,
+    "category": "Calzado",
+    "discount": true,
+    "discountValue": 10,
+    "image": "https://www.cygtextiles.co/wp-content/uploads/2021/06/TELA-PIEL-DE-CONEJO-5.png"
+  }
+]
